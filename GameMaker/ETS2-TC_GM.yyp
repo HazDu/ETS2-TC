@@ -45,6 +45,7 @@
     {"id":{"name":"rm_irl_to_ets","path":"rooms/rm_irl_to_ets/rm_irl_to_ets.yy",},},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
+    {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

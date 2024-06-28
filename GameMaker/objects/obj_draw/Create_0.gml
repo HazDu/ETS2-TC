@@ -8,3 +8,5 @@ global.autofocus = 1
 
 value1 = 0
 value2 = 0
+
+temp_min = 0

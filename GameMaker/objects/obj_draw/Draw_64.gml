@@ -33,6 +33,11 @@ if(room == rm_ets_to_irl)
 		value2 = real(obj_input_box_2.custom_string)
 	}
 	
+	temp_min = value2 + (value1 * 60)
+	temp_min = temp_min / 19
+	value1 = floor(temp_min / 60)
+	value2 = temp_min % 60
+	
 	//draw Result
 	draw_set_halign(fa_left)
 	draw_text(30, 650, value1)

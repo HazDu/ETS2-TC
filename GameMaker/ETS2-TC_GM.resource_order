@@ -23,5 +23,6 @@
     {"name":"obj_input_box_2","order":3,"path":"objects/obj_input_box_2/obj_input_box_2.yy",},
     {"name":"rm_ets_to_irl","order":1,"path":"rooms/rm_ets_to_irl/rm_ets_to_irl.yy",},
     {"name":"rm_irl_to_ets","order":2,"path":"rooms/rm_irl_to_ets/rm_irl_to_ets.yy",},
+    {"name":"spr_logo","order":1,"path":"sprites/spr_logo/spr_logo.yy",},
   ],
 }
