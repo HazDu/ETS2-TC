@@ -6,5 +6,5 @@ It's perfect for when you ask yourself: "I have 2 hours left to play, how long c
 
 I have planned to release it in various programming languages. For now, these would be GML (GameMaker Language) and C++.
 
-And if you like, you can also use it directly in your browser!
-### [Use in Browser](https://itch.io/embed-upload/10794554?color=1D1E23)
+And if you like, you can also <a href="https://itch.io/embed-upload/10794554?color=1D1E23" target="_blank">use it directly in your browser!</a>
+
