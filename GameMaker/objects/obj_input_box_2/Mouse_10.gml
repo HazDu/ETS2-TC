@@ -1,1 +1,1 @@
-window_set_cursor(cr_beam)
+window_set_cursor(cr_handpoint)
