@@ -5,3 +5,6 @@ EETS2-TC is a small program in which you can convert the in game time of Euro Tr
 It's perfect for when you ask yourself: "I have 2 hours left to play, how long can my ETS contract be?".  
 
 I have planned to release it in various programming languages. For now, these would be GML (GameMaker Language) and C++.
+
+And if you like, you can also use it directly in your browser!
+### [Use in Browser](https://itch.io/embed-upload/10794554?color=1D1E23)
