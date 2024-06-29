@@ -13,7 +13,7 @@ if(global.autofocus == 2)
 	image_index = 1
 	
 	//build string
-	if(keyboard_check_pressed(vk_anykey) && (keyboard_lastchar >= "0" && keyboard_lastchar <= "9") && string_length(custom_string) < 25)
+	if(keyboard_check_pressed(vk_anykey) && (keyboard_lastchar >= "0" && keyboard_lastchar <= "9") && string_length(custom_string) < 20)
 	{
 		custom_string = string_insert(keyboard_lastchar, custom_string, string_length(custom_string) + 1)
 	}

@@ -6,7 +6,7 @@ draw_set_valign(fa_middle)
 //which box is focused?
 global.autofocus = 1
 
-value1 = 0
-value2 = 0
+value1 = 0 //hours
+value2 = 0 //minutes
 
-temp_min = 0
+temp_min = 0 //temporary variable for calculation
