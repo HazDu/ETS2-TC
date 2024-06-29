@@ -33,14 +33,17 @@ if(room == rm_ets_to_irl)
 		value2 = real(obj_input_box_2.custom_string)
 	}
 	
-	//calculate ets to irl time
-	temp_min = value2 + (value1 * 60)
-	temp_min = temp_min / 19
-	value1 = floor(temp_min / 60)
-	value2 = round(temp_min % 60)
-	
-	//draw Result
-	draw_text(room_width/2, 580, "That's " + string(value1) + " hours and " + string(value2) + " minutes in real time.")
+	if(value1 != 0 || value2 != 0) //calculate only, if there is an input
+	{
+		//calculate ets to irl time
+		temp_min = value2 + (value1 * 60)
+		temp_min = temp_min / 19
+		value1 = floor(temp_min / 60)
+		value2 = round(temp_min % 60)
+		
+		//draw Result
+		draw_text(room_width/2, 580, "That's " + string(value1) + " hours and " + string(value2) + " minutes in real time.")
+	}
 }
 
 if(room == rm_irl_to_ets)
@@ -68,12 +71,15 @@ if(room == rm_irl_to_ets)
 		value2 = real(obj_input_box_2.custom_string)
 	}
 	
-	//calculate ets to irl time
-	temp_min = value2 + (value1 * 60)
-	temp_min = temp_min * 19
-	value1 = floor(temp_min / 60)
-	value2 = round(temp_min % 60)
+	if(value1 != 0 || value2 != 0) //calculate only, if there is an input
+	{
+		//calculate ets to irl time
+		temp_min = value2 + (value1 * 60)
+		temp_min = temp_min * 19
+		value1 = floor(temp_min / 60)
+		value2 = round(temp_min % 60)
 	
-	//draw Result
-	draw_text(room_width/2, 580, "That's " + string(value1) + " hours and " + string(value2) + " minutes in Euro Truck Simulator 2.")
+		//draw Result
+		draw_text(room_width/2, 580, "That's " + string(value1) + " hours and " + string(value2) + " minutes in Euro Truck Simulator 2.")
+	}
 }
