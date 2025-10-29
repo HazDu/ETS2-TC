@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Mainfont";
+    src: url("assets/VarelaRound-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: "Mainfont", sans-serif;
+    background-color: #1D1E23;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    background-color: #3f495c;
+    color: white;
+    width: 90px;
+    height: 90px;
+    margin: 30px;
+
+    border: 6px solid #b1b1b1;
+    border-radius: 20px;
+
+    font-family: "Mainfont", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+
+    box-shadow: 8px 8px 16px rgb(0, 0, 0);
+}
+.btn:hover{
+    border-color: #BD2021;
+    cursor: pointer;
+    box-shadow: 8px 8px 16px rgb(50, 0, 0);
+}
+.input{
+    background-color: #3f495c;
+    color: white;
+    width: 600px;
+    height: 90px;
+    margin: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border: 6px solid #b1b1b1;
+    border-radius: 20px;
+    outline: none;
+
+    font-family: "Mainfont", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+
+    box-shadow: 8px 8px 16px rgb(0, 0, 0);
+}
+.input:focus{
+    border-color: #BD2021;
+    box-shadow: 8px 8px 16px rgb(50, 0, 0);
+}
+.result_text{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
